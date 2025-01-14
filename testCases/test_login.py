@@ -24,7 +24,7 @@ class Test_001_Login:
             self.driver.close()
             self.logger.info("********** Home page title is passed **********")
         else:
-            self.driver.save_screenshot(".\\Screenshots\\" + "test_homePageTitle.png")
+            self.driver.save_screenshot(".\\screenshots\\" + "test_homePageTitle.png")
             self.driver.close()
             self.logger.error("********** Home page title is failed **********")
             assert False
@@ -45,7 +45,7 @@ class Test_001_Login:
             self.driver.close()
             self.logger.info("********** Login test is passed **********")
         else:
-            self.driver.save_screenshot(".\\Screenshots\\" + "test_login.png")
+            self.driver.save_screenshot(".\\screenshots\\" + "test_login.png")
             self.driver.close()
             self.logger.error("********** Login test is failed **********")
             assert False

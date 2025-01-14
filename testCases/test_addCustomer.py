@@ -64,7 +64,7 @@ class Test_003_AddCustomer:
             self.logger.info("******* Add customer Test Passed *******")
 
         else:
-            self.driver.save_screenshot(".\\Screenshots\\" + "test_addCustomer_src.png")
+            self.driver.save_screenshot(".\\screenshots\\" + "test_addCustomer_src.png")
             self.logger.error("******* Add customer Test Failed *******")
             assert False
 
